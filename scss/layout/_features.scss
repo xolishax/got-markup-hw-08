@@ -1,15 +1,9 @@
-.features {
-    @media screen and (max-width:1199px) {
-            display: none;
-        }
-}
-
-.features-mobile {
-    @media screen and (min-width:1200px) {
-        display: none;
+.features section {
+@media screen and (min-width:1200px) {
+        display: flex;
+    
     }
 }
-
 .features-mobile__list {
     @media screen and (min-width:768px) {
         display: flex;
@@ -19,7 +13,6 @@
 }
 
 .features-mobile__item {
-    margin-bottom: 10px;
 
     &:last-child {
             margin-bottom: 0;
