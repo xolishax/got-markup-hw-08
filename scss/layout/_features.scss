@@ -1,0 +1,138 @@
+.features {
+    @media screen and (max-width:1199px) {
+            display: none;
+        }
+}
+
+.features-mobile {
+    @media screen and (min-width:1200px) {
+        display: none;
+    }
+}
+
+.features-mobile__list {
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+.features-mobile__item {
+    margin-bottom: 10px;
+
+    &:last-child {
+            margin-bottom: 0;
+        }
+
+    &:nth-child(1),
+    &:nth-child(2) {
+        margin-bottom: 27px;
+    }
+
+    @media screen and (min-width:768px){
+        width: 354px;
+    }
+}
+
+
+.features-mobile__thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+
+    background-color: var(--background-color);
+    border-radius: 4px;
+
+    @media screen and (min-width:768px) {
+        padding: 25px 142px;
+
+    }
+}
+
+.features-mobile__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--title-color);
+
+    @media screen and (max-width:767px) {
+        text-align: center;
+    }
+    
+}
+
+.features-mobile__dsc {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}
+
+.features__icon-list {
+    
+    @media screen and (max-width:1199px){
+        display: none;
+    }
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        margin-bottom: 30px;
+    }
+}
+
+.features__thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 270px;
+    height: 120px;
+
+    background-color: var(--background-color);
+    border-radius: 4px;
+}
+
+.features__list {
+    display: flex;
+    gap: 30px;
+
+    @media screen and (max-width:1199px) {
+            display: none;
+        }
+}
+
+.features__item {
+    min-width: 270px;
+}
+
+.features__title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--title-color);
+}
+
+.features__dsc {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}

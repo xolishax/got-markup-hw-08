@@ -1,0 +1,37 @@
+// util styles
+@import './utils/variables' ;
+@import './utils/visually-hidden' ;
+@import './utils/placeholders';
+
+// base styles
+@import './base/base' ;
+@import './base/reset' ;
+
+// component styles
+@import './components/section' ;
+@import './components/container';
+@import './components/modal-window';
+@import './components/modal-form';
+@import './components/socials';
+@import './components/address';
+@import './components/socials-footer';
+@import './components/menu';
+
+// layout styles
+@import './layout/header';
+@import './layout/nav';
+@import './layout/hero';
+@import './layout/features'; 
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/portfolio';
+@import './layout/filters';
+@import './layout/projects';
+
+
+// breakpoints:
+// mobile 480px
+// tablet 768px
+// desktop 1200px
